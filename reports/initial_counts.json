@@ -1,0 +1,23 @@
+{
+  "persian": {
+    "rows": 1022,
+    "nonblank_text_rows": 993,
+    "unique_nonblank_texts": 990,
+    "missing_text_rows": 29,
+    "exact_depression_unique_texts": 72,
+    "depression_related_unique_texts": 125,
+    "duplicated_texts_with_conflicting_labels": 3
+  },
+  "chinese": {
+    "users": 233,
+    "user_labels": {
+      "是": 116,
+      "否": 117,
+      "unparsed": 0
+    },
+    "numbered_post_markers": 44178,
+    "empty_inputs": 0,
+    "annotations_with_evidence_references": 224,
+    "id_label_mismatches": 0
+  }
+}

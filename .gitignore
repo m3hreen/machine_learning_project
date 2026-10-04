@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+__pycache__/
+.venv/
+.env
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+/references/*
+!/references/.gitkeep

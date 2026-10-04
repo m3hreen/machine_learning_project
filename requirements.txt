@@ -1,0 +1,2 @@
+# Initial inspection requires Python standard library only.
+# Add pinned dependencies when model methods are finalized.
