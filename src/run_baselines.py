@@ -93,7 +93,7 @@ def main():
         "languages": {},
     }
 
-    for language in ["portuguese", "turkish", "chinese", "persian", "tamil"]:
+    for language in ['portuguese', 'turkish', 'chinese', 'persian', 'tamil', 'japanese']:
         path = PROCESSED / f"{language}_clean.csv"
         frame = pd.read_csv(path, keep_default_na=False)
         assert frame["label"].isin([0, 1]).all()

@@ -1,0 +1,23 @@
+{
+  "raw_rows": 1000,
+  "blank_rows_excluded": 0,
+  "conflicting_unique_texts": 0,
+  "conflicting_rows_excluded": 0,
+  "duplicate_rows_excluded_after_conflicts": 13,
+  "remaining_rows": 987,
+  "remaining_label_counts": {
+    "0": 500,
+    "1": 487
+  },
+  "source_sha256": "7b17a6e5dbe73f21184ef8b5773afcd7c0b145f9d77b95465b84fa20ad406bac",
+  "unit": "One Japanese tweet",
+  "target": "Released lexicon-derived depression-related label",
+  "label_1": "Depression-related according to the source lexicon rule",
+  "label_0": "Non-depression-related according to the source lexicon rule",
+  "limitations": [
+    "Automatic keyword labels are not clinical diagnoses.",
+    "Author-independent splitting cannot be verified from this CSV.",
+    "Near-duplicates may remain.",
+    "Human review for symptom evidence and age-edit suitability is pending."
+  ]
+}
