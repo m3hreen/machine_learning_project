@@ -282,6 +282,75 @@
           ]
         }
       }
+    },
+    "tamil": {
+      "processed_sha256": "e7677ee43b65643983f2143121e7530b20017c951424238fe0f1aa10f2ba17ff",
+      "split_class_counts": {
+        "train": {
+          "0": 480,
+          "1": 270
+        },
+        "validation": {
+          "0": 160,
+          "1": 90
+        },
+        "test": {
+          "0": 160,
+          "1": 90
+        }
+      },
+      "models": {
+        "majority_class": {
+          "settings": {
+            "strategy": "most_frequent"
+          },
+          "confusion_matrix_labels": [
+            0,
+            1
+          ],
+          "confusion_matrix": [
+            [
+              160,
+              0
+            ],
+            [
+              90,
+              0
+            ]
+          ]
+        },
+        "char_tfidf_logistic_regression": {
+          "settings": {
+            "analyzer": "char",
+            "ngram_range": [
+              2,
+              4
+            ],
+            "min_df": 2,
+            "max_features": 50000,
+            "actual_features": 7139,
+            "lowercase": false,
+            "sublinear_tf": true,
+            "C": 1.0,
+            "solver": "liblinear",
+            "max_iter": 1000
+          },
+          "confusion_matrix_labels": [
+            0,
+            1
+          ],
+          "confusion_matrix": [
+            [
+              160,
+              0
+            ],
+            [
+              3,
+              87
+            ]
+          ]
+        }
+      }
     }
   }
 }

@@ -1,0 +1,25 @@
+{
+  "raw_rows": 1375,
+  "invalid_label_rows_excluded": 2,
+  "blank_rows_excluded_after_label_check": 8,
+  "conflicting_unique_texts": 0,
+  "conflicting_rows_excluded": 0,
+  "duplicate_rows_excluded_after_conflicts": 115,
+  "remaining_rows": 1250,
+  "remaining_label_counts": {
+    "0": 800,
+    "1": 450
+  },
+  "source_sha256": "a7849e19d1d30671bc7b5ebc22f20f994e8ece4ccda9b8a25b890146e644681c",
+  "unit": "Automatic transcript of a speech utterance",
+  "target": "Released dep/ndep recording label",
+  "speaker_ids_available": false,
+  "limitations": [
+    "Whisper transcription errors have not been manually reviewed.",
+    "Recording labels are not independently validated text diagnoses.",
+    "Speaker-independent splitting cannot be verified from this CSV.",
+    "Repeated sentences and near-duplicates may remain.",
+    "Dataset-use and derivative permissions require confirmation.",
+    "Not yet a reviewed sample for the age-intervention study."
+  ]
+}
