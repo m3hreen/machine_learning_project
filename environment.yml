@@ -1,0 +1,6 @@
+name: age-bias
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+prefix: /Users/malasakhan/anaconda3/envs/age-bias

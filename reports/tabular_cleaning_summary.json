@@ -1,0 +1,39 @@
+{
+  "portuguese": {
+    "raw_rows": 3788,
+    "blank_rows_excluded": 0,
+    "conflicting_unique_texts": 8,
+    "conflicting_rows_excluded": 16,
+    "duplicate_rows_excluded_after_conflicts": 768,
+    "remaining_rows": 3004,
+    "remaining_label_counts": {
+      "0": 2141,
+      "1": 863
+    },
+    "source_sha256": {
+      "dataset_ideacao (3).csv": "07cc1bb671238fdc533b47cbc1efbc4046029af4ed02c32137fc828845bfa307"
+    }
+  },
+  "turkish": {
+    "raw_rows": 57597,
+    "blank_rows_excluded": 10,
+    "conflicting_unique_texts": 5,
+    "conflicting_rows_excluded": 11,
+    "duplicate_rows_excluded_after_conflicts": 2182,
+    "remaining_rows": 55394,
+    "remaining_label_counts": {
+      "0": 27847,
+      "1": 27547
+    },
+    "original_shared_unique_texts": 572,
+    "remaining_source_split_counts": {
+      "train": 39035,
+      "test": 16359
+    },
+    "source_sha256": {
+      "train-00000-of-00001.parquet": "1a3f85151e5589ebde07cc69fb6f981396ecdbb48f8170ab86d1d3dd17ca7fbc",
+      "test-00000-of-00001.parquet": "7569eca549a04740de97aa2890ddd4a1c4c8ca98fef03d9c811b033dfbf08d9a"
+    },
+    "overlap_policy": "Exclude globally conflicting texts. Keep one copy of other texts; retain train copies and remove matching test copies."
+  }
+}
