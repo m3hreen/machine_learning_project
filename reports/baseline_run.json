@@ -144,6 +144,144 @@
           ]
         }
       }
+    },
+    "chinese": {
+      "processed_sha256": "b9b0d7e056e8293cdff82c42b016683eb942978c662b6ce5cfd30a5091d02b8b",
+      "split_class_counts": {
+        "train": {
+          "0": 70,
+          "1": 69
+        },
+        "validation": {
+          "1": 24,
+          "0": 23
+        },
+        "test": {
+          "0": 24,
+          "1": 23
+        }
+      },
+      "models": {
+        "majority_class": {
+          "settings": {
+            "strategy": "most_frequent"
+          },
+          "confusion_matrix_labels": [
+            0,
+            1
+          ],
+          "confusion_matrix": [
+            [
+              23,
+              0
+            ],
+            [
+              24,
+              0
+            ]
+          ]
+        },
+        "char_tfidf_logistic_regression": {
+          "settings": {
+            "analyzer": "char",
+            "ngram_range": [
+              2,
+              4
+            ],
+            "min_df": 2,
+            "max_features": 50000,
+            "actual_features": 50000,
+            "lowercase": false,
+            "sublinear_tf": true,
+            "C": 1.0,
+            "solver": "liblinear",
+            "max_iter": 1000
+          },
+          "confusion_matrix_labels": [
+            0,
+            1
+          ],
+          "confusion_matrix": [
+            [
+              20,
+              3
+            ],
+            [
+              8,
+              16
+            ]
+          ]
+        }
+      }
+    },
+    "persian": {
+      "processed_sha256": "f1ba5443c5383c54c4038219dbfb9af39f66cdd02c5947f1e6e7dc51c7b5ae12",
+      "split_class_counts": {
+        "train": {
+          "0": 514,
+          "1": 43
+        },
+        "validation": {
+          "0": 172,
+          "1": 14
+        },
+        "test": {
+          "0": 172,
+          "1": 14
+        }
+      },
+      "models": {
+        "majority_class": {
+          "settings": {
+            "strategy": "most_frequent"
+          },
+          "confusion_matrix_labels": [
+            0,
+            1
+          ],
+          "confusion_matrix": [
+            [
+              172,
+              0
+            ],
+            [
+              14,
+              0
+            ]
+          ]
+        },
+        "char_tfidf_logistic_regression": {
+          "settings": {
+            "analyzer": "char",
+            "ngram_range": [
+              2,
+              4
+            ],
+            "min_df": 2,
+            "max_features": 50000,
+            "actual_features": 24571,
+            "lowercase": false,
+            "sublinear_tf": true,
+            "C": 1.0,
+            "solver": "liblinear",
+            "max_iter": 1000
+          },
+          "confusion_matrix_labels": [
+            0,
+            1
+          ],
+          "confusion_matrix": [
+            [
+              172,
+              0
+            ],
+            [
+              14,
+              0
+            ]
+          ]
+        }
+      }
     }
   }
 }

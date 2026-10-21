@@ -1,0 +1,18 @@
+{
+  "raw_rows": 1022,
+  "blank_text_rows_excluded": 29,
+  "conflicting_unique_texts": 3,
+  "conflicting_rows_excluded": 6,
+  "duplicate_rows_excluded_after_conflicts": 0,
+  "unique_texts_excluded_by_label_rule": 58,
+  "remaining_rows": 929,
+  "remaining_label_counts": {
+    "0": 858,
+    "1": 71
+  },
+  "target": "Provisional exact depression-annotation presence, not clinical depression status",
+  "label_1": "Exact mental-state annotation: افسردگی",
+  "label_0": "Nonempty mental-state annotations with no depression stem افسرد",
+  "source_sha256": "695ef9ed717e460fef69f7cc1b14f372f68e5539321fe3ae4f01be998ae0bedd",
+  "review_status": "Rule-derived labels; human review pending. Not the final age-study sample."
+}

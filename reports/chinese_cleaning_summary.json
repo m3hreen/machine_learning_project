@@ -1,0 +1,15 @@
+{
+  "unit": "One complete user history",
+  "raw_users": 233,
+  "blank_histories_excluded": 0,
+  "conflicting_unique_histories": 0,
+  "conflicting_rows_excluded": 0,
+  "duplicate_histories_excluded_after_conflicts": 0,
+  "remaining_users": 233,
+  "remaining_label_counts": {
+    "0": 117,
+    "1": 116
+  },
+  "source_sha256": "0fdd554f7553ce9852e88e9ec61e3c6f7778afdbec1f275892aa4e49f8b0ecb9",
+  "model_input": "User history only; annotation output and user IDs excluded"
+}
