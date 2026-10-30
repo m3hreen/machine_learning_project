@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "python": "3.11.17",
+  "sklearn": "1.5.2",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "matplotlib": "3.9.2",
+  "languages": [
+    "portuguese",
+    "turkish",
+    "chinese",
+    "persian",
+    "tamil",
+    "japanese"
+  ],
+  "test_evaluated": false,
+  "learning_curve_fractions": [
+    0.2,
+    0.5,
+    1.0
+  ],
+  "baseline_metrics_checked": true,
+  "script_sha256": "eab35ae51f5a03d44adff620627a5f85633523e70337bee4f9a5711af6431a32"
+}
