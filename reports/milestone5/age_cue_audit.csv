@@ -1,0 +1,7 @@
+language,records_checked,explicit_age_records,life_stage_records,either_cue_records,both_cue_records,no_detected_cue_records,cue_record_percentage,unit_note
+portuguese,3004,19,26,42,3,2962,1.4,individual dataset records
+turkish,55394,171,846,992,25,54402,1.79,individual dataset records
+chinese,233,99,200,206,93,27,88.41,complete user histories; record-level count
+persian,929,102,47,136,13,793,14.64,individual dataset records
+tamil,1250,0,5,5,0,1245,0.4,individual dataset records
+japanese,987,8,10,17,1,970,1.72,individual dataset records

@@ -13,7 +13,25 @@ Label 1 is the positive class for each dataset. Label 0 is its source-specific c
 | Tamil | `tamil_audio_dataset.csv`, one automatic transcript of a speech utterance per row. | 1 = released recording label `dep`, 0 = `ndep`. | 1,375 raw rows. Removed two invalid labels, eight blank transcripts, and 115 exact duplicates after trimming. |
 | Japanese | `twitter_Japanese.csv`, one tweet per row. | 1 = depression-related under the source lexicon rule, 0 = comparison under that rule. | Removed 13 exact duplicates after trimming from 1,000 raw rows. |
 
-The local project notes identify the [Chinese source repository](https://github.com/jytal/CNSocialDepress) and the [Persian dataset record](https://data.mendeley.com/datasets/ksmcbg69rr/1). They record CC BY 4.0 for Persian and leave Chinese redistribution terms unconfirmed. The Portuguese release version and the upstream citation and reuse terms for Portuguese, Turkish, Tamil, and Japanese still need confirmation.
+## Source attribution and reuse status
+
+The project uses six multilingual datasets. Source information and reuse permissions must be documented separately for each dataset.
+
+- **Persian:** *Farsi Mental State and Emotional Needs Dataset for Psychological Text Mining*, version 1, by Zahra Jamalou. Published on Mendeley Data on July 7, 2025. DOI: `10.17632/ksmcbg69rr.1`. Licensed under CC BY 4.0. Attribution is required, and modifications must be identified when redistributing permitted derivatives.
+  Source: https://data.mendeley.com/datasets/ksmcbg69rr/1
+
+- **Chinese:** CNSocialDepress, based on the Sina Weibo Depression Dataset. The repository describes the data as intended for academic research. An explicit redistribution licence has not been confirmed. Do not redistribute the raw data or derivatives without clarifying permission.
+  Source: https://github.com/jytal/CNSocialDepress
+
+- **Portuguese:** The local filename is `dataset_ideacao (3).csv`. The exact upstream release version, publication citation, and reuse licence have not yet been independently confirmed.
+
+- **Turkish:** The dataset was supplied as publisher train and test Parquet files. The upstream publication citation and reuse licence still require confirmation.
+
+- **Tamil:** The source file is `tamil_audio_dataset.csv`. The upstream dataset citation and reuse licence still require confirmation.
+
+- **Japanese:** The source file is `twitter_Japanese.csv`. The upstream dataset citation and reuse licence still require confirmation.
+
+**Data handling:** The presence of a dataset in the local project does not establish permission to redistribute it. Keep raw datasets out of public repositories unless their terms explicitly permit redistribution. Do not publish identifiable or sensitive text excerpts.
 
 ## Splits and class counts
 
