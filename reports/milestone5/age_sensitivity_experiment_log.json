@@ -1,0 +1,92 @@
+{
+  "partition": "validation",
+  "test_evaluated": false,
+  "exploratory": true,
+  "seed": 42,
+  "ages": [
+    18,
+    25,
+    35,
+    45,
+    60,
+    75
+  ],
+  "prefixes": {
+    "portuguese": "Idade",
+    "turkish": "Yaş",
+    "chinese": "年龄",
+    "persian": "سن",
+    "tamil": "வயது",
+    "japanese": "年齢"
+  },
+  "unspecified_value": "—",
+  "primary_pilot_reference": "age_unspecified",
+  "interval": "Exact 95% binomial interval for paired flip indicators, assuming independent source records",
+  "selection_sha256": "33c9f8f3ed9ce40eb2b3e64b4d9dafb9ece6c45cd3b79d76d6cfb91011d819d5",
+  "selected_c": {
+    "portuguese": {
+      "logistic_regression": 10.0,
+      "linear_svm": 10.0
+    },
+    "turkish": {
+      "logistic_regression": 10.0,
+      "linear_svm": 1.0
+    },
+    "chinese": {
+      "logistic_regression": 10.0,
+      "linear_svm": 10.0
+    },
+    "persian": {
+      "logistic_regression": 0.1,
+      "linear_svm": 0.1
+    },
+    "tamil": {
+      "logistic_regression": 10.0,
+      "linear_svm": 0.1
+    },
+    "japanese": {
+      "logistic_regression": 10.0,
+      "linear_svm": 10.0
+    }
+  },
+  "svm_dual": "auto",
+  "vectorizer": {
+    "analyzer": "char",
+    "ngram_range": [
+      2,
+      4
+    ],
+    "min_df": 2,
+    "max_features": 50000,
+    "lowercase": false,
+    "sublinear_tf": true
+  },
+  "inputs": {
+    "portuguese": {
+      "data_sha256": "9d60ac0491ee0bfe4240dbae53a3e7c5b9b45339f7147bbb3407cbdc74f3b9c2",
+      "split_sha256": "47c3841d49d0f9dae4c2adf5e517c3eee453617e21004acd55100144dfa4d6ee"
+    },
+    "turkish": {
+      "data_sha256": "3c4d14501f04ec7094a118f293c123a10fedbb0c58a495ab011c63962dbd05c5",
+      "split_sha256": "c2a53a87d845a6d17e33e45942a5757c8f157d447ecc97390ed12ee3c1962451"
+    },
+    "chinese": {
+      "data_sha256": "b9b0d7e056e8293cdff82c42b016683eb942978c662b6ce5cfd30a5091d02b8b",
+      "split_sha256": "5f45f8287a5be4c50f0cb0dec91e0853742fb2a194be117f18580151afc0abf0"
+    },
+    "persian": {
+      "data_sha256": "f1ba5443c5383c54c4038219dbfb9af39f66cdd02c5947f1e6e7dc51c7b5ae12",
+      "split_sha256": "eaa0cf7af97d5571960a1ae22fb4e62da9d73bc8da7163d27c330efa080a8726"
+    },
+    "tamil": {
+      "data_sha256": "e7677ee43b65643983f2143121e7530b20017c951424238fe0f1aa10f2ba17ff",
+      "split_sha256": "e0e67c578004d17827c1a4bbb5370d36adfa572ebc70e3e1df9832688aa3e851"
+    },
+    "japanese": {
+      "data_sha256": "a722af8c8a5a7dfda98c50e750d69859bdc00c0493fb31aea8a5b82b182b3ce9",
+      "split_sha256": "6a2faca34997d5292bc8d319d6a3d1f36e35b47b6706a44812241b81dcb07642"
+    }
+  },
+  "python": "3.12.14",
+  "scikit_learn": "1.8.0"
+}
